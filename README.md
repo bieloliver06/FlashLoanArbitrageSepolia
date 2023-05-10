@@ -1,6 +1,6 @@
-# Sample Hardhat Project
+# Aave v3 Flash Loan Arbitrage Sepolia test
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project is a sample Aave v3 flash loan arbitrage to be used in the sepolia test network with a custom dex for test.
 
 Try running some of the following tasks:
 
@@ -9,5 +9,5 @@ npx hardhat help
 npx hardhat test
 GAS_REPORT=true npx hardhat test
 npx hardhat node
-npx hardhat run scripts/deploy.js
+npx hardhat run scripts\deployDexAndFlashLoan.js
 ```
